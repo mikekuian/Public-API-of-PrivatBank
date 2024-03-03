@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "public-api-of-privatbank"
+version = "0.1.0"
+description = ""
+authors = ["Michael Kuian <michaelkuian@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asyncio = "^3.4.3"
+datetime = "^5.4"
+aiohttp = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
